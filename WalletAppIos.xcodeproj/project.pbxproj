@@ -14,6 +14,7 @@
 		96BCF92E28FDD4E90093DAC9 /* WalletAppIosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCF92D28FDD4E90093DAC9 /* WalletAppIosTests.swift */; };
 		96BCF93828FDD4E90093DAC9 /* WalletAppIosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCF93728FDD4E90093DAC9 /* WalletAppIosUITests.swift */; };
 		96BCF93A28FDD4E90093DAC9 /* WalletAppIosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCF93928FDD4E90093DAC9 /* WalletAppIosUITestsLaunchTests.swift */; };
+		96BCF94828FDD6110093DAC9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCF94728FDD6110093DAC9 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		96BCF93328FDD4E90093DAC9 /* WalletAppIosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletAppIosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96BCF93728FDD4E90093DAC9 /* WalletAppIosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletAppIosUITests.swift; sourceTree = "<group>"; };
 		96BCF93928FDD4E90093DAC9 /* WalletAppIosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletAppIosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		96BCF94728FDD6110093DAC9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		96BCF91B28FDD4E50093DAC9 /* WalletAppIos */ = {
 			isa = PBXGroup;
 			children = (
+				96BCF94628FDD5F90093DAC9 /* Views */,
 				96BCF91C28FDD4E50093DAC9 /* WalletAppIosApp.swift */,
 				96BCF91E28FDD4E50093DAC9 /* ContentView.swift */,
 				96BCF92028FDD4E90093DAC9 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				96BCF93928FDD4E90093DAC9 /* WalletAppIosUITestsLaunchTests.swift */,
 			);
 			path = WalletAppIosUITests;
+			sourceTree = "<group>";
+		};
+		96BCF94628FDD5F90093DAC9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				96BCF94728FDD6110093DAC9 /* LoginView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96BCF94828FDD6110093DAC9 /* LoginView.swift in Sources */,
 				96BCF91F28FDD4E50093DAC9 /* ContentView.swift in Sources */,
 				96BCF91D28FDD4E50093DAC9 /* WalletAppIosApp.swift in Sources */,
 			);
